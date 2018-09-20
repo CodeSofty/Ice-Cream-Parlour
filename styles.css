@@ -1,0 +1,49 @@
+html, body {
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+.container {
+	width: 60%;
+	margin: 0 auto;
+}
+
+.nav {
+	font-family: 'Lato', sans-serif;
+	background-color: pink;
+	padding: 15px 0;
+	width: 100%;
+	text-align: center;
+}
+
+.nav a {
+	font-size: 1rem;
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+	padding: 0 20px;
+	transition: color .1s;
+}
+
+ .nav a:hover {
+	color: maroon;
+}
+
+header {
+	background:black;
+	height: 575px;
+	background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1) ),url('imgs/bgimg.jpg'); 
+	background-position: center;
+	background-repeat: cover;
+}
+
+h1 {
+	font-family: 'Bree Serif', serif;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 0;
+	text-transform: uppercase;
+    color: #FFFCFC;
+    font-weight: 50;
+    font-size: 3.5rem;
+    padding-top: 130px;
+}
