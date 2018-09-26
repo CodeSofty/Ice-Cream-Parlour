@@ -45,6 +45,7 @@ h1 {
     padding-top: 130px;
 }
 
+/* ===== Beginning of Our Story Styles =====*/
 
 .flex-container {
 	margin: 75px 0;
@@ -79,19 +80,116 @@ h1 {
 }
 
 
-.test {
+/*=== End of Our Story Styles====*/
 
-	width: 100%;
-	height: 500px;
-	margin-bottom: 75px;
-	background-color: grey;
+/*=== Beginning Trending Menu Styles====*/
+
+#menu-slider {
+	padding: 20px 0;
+	background: #ebebeb;
 }
 
-.test p {
-	padding-top: 100px;
+.seasonal-title {
+	font-family: 'Bree Serif', serif;
+	font-size: 2rem;
+	text-align: center;
+}
+
+.trending-title {
 	font-family: 'Open Sans', sans-serif;
-	color: white;
-	font-weight: 300;
-	font-size: .85rem;
-	line-height: 1.8;
+	color: orange;
+	padding-bottom: 20px;
+	margin-top: 50px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: .8rem;
+	letter-spacing: 5px;
 }
+
+.left, .middle, .right {
+	width: 33.33%;
+	float: left;
+	margin-bottom: 50px;
+}
+
+
+.box {
+	background: #fff;
+	padding: 20px;
+	margin-left: 20px;
+}
+
+ .box-link{
+	font-family: 'Lato', sans-serif;
+	color: black;
+	text-decoration: underline;
+	text-align: center;
+	display: block;
+
+}
+
+.boxes {
+	padding-bottom: 50px;
+}
+
+.box-image1, .box-image2, .box-image3 {
+	position: relative;
+	width: 100%;
+	height: 220px;
+	margin-bottom: 50px;
+
+}
+
+.box-image1 {
+	background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ),url('../imgs/coffee.jpeg'); 
+	background-position: center;
+	background-repeat:  cover;
+}
+
+.box-image2 {
+	background-image: linear-gradient( rgba(0, 0, 0, .1), rgba(0, 0, 0, .1) ),url('../imgs/seeds.jpeg'); 
+	background-position: center;
+	background-repeat: cover;
+}
+
+
+.box-image3 {
+	background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ),url('../imgs/brownie.jpeg'); 
+	background-position: center;
+	background-repeat:  cover;
+}
+
+.overlay {
+	font-family: 'Lato', sans-serif;
+	color: white;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translate(-50%);
+	font-size: 1rem;
+	background: rgba(139,131,134,0.41);
+	height: 70px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.title {
+	display: block;
+	font-size: .9rem;
+	font-weight: 600;
+	line-height: 1.5;
+	text-align: center;
+}
+
+.details {
+	margin: 0;
+	padding-bottom: 10px;
+	line-height: 2;
+	font-size: .8rem;
+	font-weight: 300;
+	text-align: center;
+}
+
+/*=== End of Trending Menu Styles===*/
