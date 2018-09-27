@@ -70,6 +70,16 @@ h1 {
 	margin-left: 40px;
 }
 
+.flex2 h2 {
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+	color: brown;
+	margin-top: -4px;
+	font-size: 1.3rem;
+	line-height: 1.8;
+
+}
+
 .flex2 p {
 	margin-top: -4px;
 	font-family: 'Open Sans', sans-serif;
@@ -79,6 +89,11 @@ h1 {
 	line-height: 1.8;
 }
 
+.underline {
+	width: 25%;
+	padding-top: 45px;
+	border-bottom: 2px brown solid;
+}
 
 /*=== End of Our Story Styles====*/
 
@@ -108,8 +123,8 @@ h1 {
 
 .left, .middle, .right {
 	width: 33.33%;
-	float: left;
 	margin-bottom: 50px;
+	float: left;
 }
 
 
@@ -193,3 +208,53 @@ h1 {
 }
 
 /*=== End of Trending Menu Styles===*/
+
+
+/*=== Beginning of Main Menu Styles===*/
+#main-menu{
+	text-align: center;
+}
+
+#main-menu ul {
+	list-style-type: none;
+}
+
+#main-menu h2 {
+	font-family: 'Bree Serif', serif;
+	color: #505050;
+	margin-top: 50px;
+	font-size: 2rem;
+	text-align: center;
+}
+
+.grid {
+	margin: 0 auto;
+	text-align: center;
+	padding: 15px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr;
+}
+
+.col-title {
+	font-family: 'Lato', sans-serif;
+	color: brown;
+	padding: 20px 0 0 0;
+	text-transform: uppercase;
+	font-weight: 300;
+	font-size: .9rem;
+}
+
+.food {
+	font-family: 'Open Sans', sans-serif;
+	width: 100%;
+	color: black;
+	font-size: .8em;
+	letter-spacing: .1rem;
+	font-weight: 300;
+	line-height: 2;
+}
+
+
+/*=== End of Main Menu Styles===*/
+
