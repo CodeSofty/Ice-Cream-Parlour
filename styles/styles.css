@@ -6,7 +6,7 @@
 
 .nav {
 	font-family: 'Lato', sans-serif;
-	background-color: pink;
+	background-color: #ffd7d7;
 	padding: 15px 0;
 	width: 100%;
 	text-align: center;
@@ -28,9 +28,10 @@
 header {
 	background:black;
 	height: 575px;
-	background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1) ),url('../imgs/bgimg.jpg'); 
+	background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ),url('../imgs/header_background.jpg'); 
 	background-position: center;
-	background-repeat: cover;
+	background-repeat:   no-repeat;
+	background-size: cover;
 }
 
 h1 {
@@ -47,9 +48,11 @@ h1 {
 
 /* ===== Beginning of Our Story Styles =====*/
 
+
 .flex-container {
 	margin: 75px 0;
 	display: flex;
+	flex-direction: row;
 	justify-content: space-between;
 }
 
@@ -60,7 +63,8 @@ h1 {
 	max-width: 100%;
 	background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ),url('../imgs/interior.jpeg'); 
 	background-position: center;
-	background-repeat:  cover;
+	background-repeat:   no-repeat;
+	background-size: cover;
 	flex-basis: 50%;
 }
 
@@ -97,11 +101,13 @@ h1 {
 
 /*=== End of Our Story Styles====*/
 
+
+
 /*=== Beginning Trending Menu Styles====*/
 
 #menu-slider {
 	padding: 20px 0;
-	background: #ebebeb;
+	background: rgba(139,131,134,0.1);
 }
 
 .seasonal-title {
@@ -129,7 +135,7 @@ h1 {
 
 
 .box {
-	background: #fff;
+	background: rgba(139,131,134,0.1);
 	padding: 20px;
 	margin-left: 20px;
 }
@@ -158,20 +164,23 @@ h1 {
 .box-image1 {
 	background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ),url('../imgs/coffee.jpeg'); 
 	background-position: center;
-	background-repeat:  cover;
+	background-repeat:   no-repeat;
+	background-size: cover;
 }
 
 .box-image2 {
 	background-image: linear-gradient( rgba(0, 0, 0, .1), rgba(0, 0, 0, .1) ),url('../imgs/seeds.jpeg'); 
 	background-position: center;
-	background-repeat: cover;
+	background-repeat:   no-repeat;
+	background-size: cover;
 }
 
 
 .box-image3 {
 	background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ),url('../imgs/brownie.jpeg'); 
 	background-position: center;
-	background-repeat:  cover;
+	background-repeat:   no-repeat;
+	background-size: cover;
 }
 
 .overlay {
@@ -212,7 +221,9 @@ h1 {
 
 /*=== Beginning of Main Menu Styles===*/
 #main-menu{
+	background-color: white;
 	text-align: center;
+	padding: 75px;
 }
 
 #main-menu ul {
@@ -249,7 +260,7 @@ h1 {
 	font-family: 'Open Sans', sans-serif;
 	width: 100%;
 	color: black;
-	font-size: .8em;
+	font-size: .8rem;
 	letter-spacing: .1rem;
 	font-weight: 300;
 	line-height: 2;
@@ -258,3 +269,89 @@ h1 {
 
 /*=== End of Main Menu Styles===*/
 
+/*== Start Newsletter Styles===*/
+
+
+#promotional {
+	background-color: wheat;
+	padding: 20px;
+}
+
+.flex3 {
+	background-color: gold;
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+	color: brown;
+	padding: 100px 50px;
+	width: 50%;
+	margin: 0 auto;
+	font-size: 1.3rem;
+	line-height: 1;
+	text-align: center;
+}
+
+.flex3 h2{
+	font-family: 'Bree Serif', serif;
+	color: black;
+	margin: 20px 0;
+	padding: 0 0 15px 0;
+	font-size: 2.5rem;
+	text-align: center;
+}
+
+.flex3 span {
+	font-family: 'Open Sans', sans-serif;
+	color: #8B4513;
+	font-weight: 500;
+	line-height: 3;
+	font-size: .9rem;
+	letter-spacing: .1rem;
+	padding: 0 18px;
+}
+
+.btn {
+	margin-top: 15px;
+	padding-bottom: 45px;
+	text-align: center;
+}
+
+.btn a {
+	font-family: 'Lato', sans-serif;
+	font-size: 1rem;
+	font-weight: 400;
+	color: white;
+	background-color: lightgreen;
+	border: 2px solid black;
+	border-radius: 5px;
+	display: inline-block;
+	text-decoration: none;
+	padding: 10px 30px;
+}
+
+.btn :hover {
+	color: white;
+	background-color: lightgrey;
+}
+
+.flex4 {
+	background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ),url('../imgs/promoimg.jpg'); 
+	background-position: center;
+	background-repeat:   no-repeat;
+	background-size: cover;
+	width: 50%;
+	padding: 70px;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+	margin:0 auto;
+	font-size: 1.3rem;
+	line-height: 1.8;
+}
+
+/*=== End Newsletter Styles ===*/
+
+
+/*== Beginning of Footer Styles===*/
+
+
+/*=== End of Footer Styles===*/
