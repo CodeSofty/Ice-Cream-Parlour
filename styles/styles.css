@@ -6,7 +6,7 @@
 
 .nav {
 	font-family: 'Lato', sans-serif;
-	background-color: #ffd7d7;
+	background-color: #DBA0A0;
 	padding: 15px 0;
 	width: 100%;
 	text-align: center;
@@ -77,7 +77,7 @@ h1 {
 .flex2 h2 {
 	font-family: 'Open Sans', sans-serif;
 	text-transform: uppercase;
-	color: brown;
+	color: #945679;
 	margin-top: -4px;
 	font-size: 1.3rem;
 	line-height: 1.8;
@@ -96,7 +96,7 @@ h1 {
 .underline {
 	width: 25%;
 	padding-top: 45px;
-	border-bottom: 2px brown solid;
+	border-bottom: 2px #945679 solid;
 }
 
 /*=== End of Our Story Styles====*/
@@ -107,18 +107,19 @@ h1 {
 
 #menu-slider {
 	padding: 20px 0;
-	background: rgba(139,131,134,0.1);
+	background-color: #819999;
 }
 
 .seasonal-title {
 	font-family: 'Bree Serif', serif;
+	color: #FBFCF8;
 	font-size: 2rem;
 	text-align: center;
 }
 
 .trending-title {
 	font-family: 'Open Sans', sans-serif;
-	color: orange;
+	color: white;
 	padding-bottom: 20px;
 	margin-top: 50px;
 	text-align: center;
@@ -135,15 +136,15 @@ h1 {
 
 
 .box {
-	background: rgba(139,131,134,0.1);
+	background-color: #D2E1D2;
 	padding: 20px;
 	margin-left: 20px;
 }
 
  .box-link{
 	font-family: 'Lato', sans-serif;
-	color: black;
-	text-decoration: underline;
+	color: white;
+	text-decoration: none;
 	text-align: center;
 	display: block;
 
@@ -200,18 +201,22 @@ h1 {
 }
 
 .title {
+	font-family: 'Open Sans', sans-serif;
+	color: #569456;
 	display: block;
-	font-size: .9rem;
+	font-size: 1rem;
 	font-weight: 600;
 	line-height: 1.5;
 	text-align: center;
 }
 
 .details {
+	font-family: 'Open Sans', sans-serif;
+	color: #416F6F;
 	margin: 0;
 	padding-bottom: 10px;
 	line-height: 2;
-	font-size: .8rem;
+	font-size: .9rem;
 	font-weight: 300;
 	text-align: center;
 }
@@ -221,7 +226,7 @@ h1 {
 
 /*=== Beginning of Main Menu Styles===*/
 #main-menu{
-	background-color: white;
+	background-color: #fff;
 	text-align: center;
 	padding: 75px;
 }
@@ -249,10 +254,10 @@ h1 {
 
 .col-title {
 	font-family: 'Lato', sans-serif;
-	color: brown;
+	color: #945679;
 	padding: 20px 0 0 0;
 	text-transform: uppercase;
-	font-weight: 300;
+	font-weight: 400;
 	font-size: .9rem;
 }
 
@@ -273,12 +278,11 @@ h1 {
 
 
 #promotional {
-	background-color: wheat;
 	padding: 20px;
 }
 
 .flex3 {
-	background-color: gold;
+	background-color: #F5DEB3;
 	font-family: 'Open Sans', sans-serif;
 	text-transform: uppercase;
 	color: brown;
@@ -292,7 +296,7 @@ h1 {
 
 .flex3 h2{
 	font-family: 'Bree Serif', serif;
-	color: black;
+	color: #332661;
 	margin: 20px 0;
 	padding: 0 0 15px 0;
 	font-size: 2.5rem;
@@ -301,7 +305,7 @@ h1 {
 
 .flex3 span {
 	font-family: 'Open Sans', sans-serif;
-	color: #8B4513;
+	color: #000;
 	font-weight: 500;
 	line-height: 3;
 	font-size: .9rem;
@@ -320,7 +324,7 @@ h1 {
 	font-size: 1rem;
 	font-weight: 400;
 	color: white;
-	background-color: lightgreen;
+	background-color: #655A8F;
 	border: 2px solid black;
 	border-radius: 5px;
 	display: inline-block;
@@ -329,7 +333,7 @@ h1 {
 }
 
 .btn :hover {
-	color: white;
+	color: black;
 	background-color: lightgrey;
 }
 
