@@ -356,6 +356,15 @@ h1 {
 
 /*=== Beginning of Gallery Styles ===*/
 
+#gallery h2 {
+	text-align: center;
+	color: orange;
+}
+
+#gallery a {
+	text-decoration: none;
+}
+
 
 .grid-wrapper {
 	display: grid;
@@ -424,12 +433,25 @@ h1 {
 .item:hover { 
     opacity: .6;
     background-color: black;
+    cursor: pointer;
   }
 
 /*=== End of Gallery Styles===*/
 
 
 /*== Beginning of Footer Styles===*/
+
+#footer {
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	margin-top: 100px;
+	height: 300px;
+	background-color: black;
+	color: white;
+}
+
+
+
 
 
 /*=== End of Footer Styles===*/
