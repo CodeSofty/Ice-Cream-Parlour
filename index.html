@@ -4,6 +4,7 @@
 
   <head>
     <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Lato:300,400|Open+Sans:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link rel = "stylesheet" href = "styles/normalize.css">
   	<link rel = "stylesheet" href = "styles/styles.css">
     <title>Main Street Ice Cream Parlor</title>
@@ -16,8 +17,8 @@
         <a href="#">About Us</a>
     		<a href="#">Seasonal Treats</a>
         <a href="#">Menu</a>
-    		<a href="#"> Locations</a>
-    		<a href="#"> Social Media</a>
+        <a href="#"> Social Media</a>
+    		<a href="#"> Location</a>
   	</nav>
     	<h1> Main Street Ice Cream Parlour</h1>
   </header>
@@ -30,9 +31,9 @@
 
       <div class='flex-container'>
 
-      <div class='flex1'> </div>
+      <div class='flex-left-col'> </div>
 
-    <div class='flex2'>
+    <div class='flex-right-col'>
       <h2> Welcome to Main Street Ice Cream Parlour.</h2>
      <p>Lorem ipsum dolor amet yuccie bitters viral glossier post-ironic. Brunch cronut try-hard franzen, letterpress roof party chicharrones shabby chic tote bag ramps four loko cornhole mlkshk post-ironic. Blue bottle selfies 3 wolf moon shabby chic, normcore shoreditch schlitz leggings tumeric. Kombucha blog organic skateboard, prism ramps before they sold out schlitz. Unicorn dreamcatcher palo santo chillwave YOLO pabst viral pok pok post-ironic microdosing seitan.</p>
 
@@ -51,7 +52,7 @@
 
 
 
-<!---Beginning of Special Menu--->
+<!---Beginning of Seasonal Menu Section --->
 
 <section id= 'menu-slider'>
   <div class='container'>
@@ -96,10 +97,10 @@
   </div>
 </section>
 
-<!--- End Special Menu-->
+<!--- End Seasonal Menu Section-->
 
 
-<!-- Begin Main Menu-->
+<!-- Beginning of Main Menu Section -->
 <section id = 'main-menu'>
 <div class='container'>
   <h2>Our Flavors and Toppings</h2>
@@ -161,14 +162,15 @@
 </div>
 </section>
 
-<!-- End Main Menu -->
+<!-- End of Main Menu Section -->
 
-<!-- Begin Promotional Section -->
+<!-- Beginning of Promotional Section -->
+
 <section id='promotional'>
 <div class='container'>
 <div class= 'flex-container'>
 
-  <div class='flex3'>
+  <div class='flex3-left-col'>
 
   <h2>Sweet Deals</h2>
 
@@ -180,7 +182,7 @@
   </div>
 
 
-  <div class='flex4'> </div>
+  <div class='flex4-right-col'> </div>
 
 
 
@@ -195,7 +197,7 @@
   <a href="#"><h2> @Instagram</h2></a>
 <div class='container'>
 
-
+<!--The Following Is a Grid Containing Images-->
 <div class='grid-wrapper'>
 
 <div class='item image1'>
@@ -230,24 +232,56 @@
 
 </div>
 
+<!-- Ending of Images Grid -->
+
 
 </div>
 </div>
 </section>
 
 
-<section id='footer'>
-<div class='footer-content'>
+<!-- End of Gallery Section -->
 
 
-Hours: Mon-Fri (7AM-9PM), Sat-Sun (7AM-10PM)<br>
-Phone: 555-555-5555
-<address>Location: Main ST. Your City, Missouri 5555</address>
+<!-- Beginning of Footer Section -->
 
+<footer class = 'footer'>
+<div class='columns'>
+
+<div class = 'left'>
+<h3>Find Us</h3>
+<address>514 Main Street<br>
+Kansas City, MO 64106</address>
+816.555.5555<br>
+<div class = 'icons'>
+<a href='#'><i class="fab fa-facebook-square"></i></a>
+<a href= '#'><i class="fab fa-twitter-square"></i></a>
+<a href = '#'> <i class="fab fa-instagram"></i></a>
+</div>
+<div class = 'copy'><span> &copy; 2018 Main Street Ice Cream Parlour</span></div>
 </div>
 
+<div class = 'middle'>
+  <h3>Hours</h3>
+<span>Monday | 7am-5pm<br>
+Tuesday–Saturday | 8am–3pm<br>
+Sunday | 9am-3pm</span>
 
-  </section>
+  </div>
+
+  <div class = 'right'>
+    <h3>Join Our Mailing List</h3>
+<form>
+  <input type='text' placeholder = 'Email Address'>
+  <button>submit</button>
+</form>
+  </div>
+
+
+</div>
+  </footer>
+
+  <!-- End of Footer Section -->
 
   <script src = 'apps.js'></script>
   </body>

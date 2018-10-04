@@ -57,7 +57,7 @@ h1 {
 }
 
 
-.flex1 {
+.flex-left-col {
 	width: 500px;
 	height: 500px;
 	max-width: 100%;
@@ -69,12 +69,12 @@ h1 {
 }
 
 
-.flex2 {
+.flex-right-col {
 	flex-basis: 50%;
 	margin-left: 40px;
 }
 
-.flex2 h2 {
+.flex-right-col h2 {
 	font-family: 'Open Sans', sans-serif;
 	text-transform: uppercase;
 	color: #945679;
@@ -84,7 +84,7 @@ h1 {
 
 }
 
-.flex2 p {
+.flex-right-col p {
 	margin-top: -4px;
 	font-family: 'Open Sans', sans-serif;
 	color: grey;
@@ -228,7 +228,7 @@ h1 {
 #main-menu{
 	background-color: #fff;
 	text-align: center;
-	padding: 75px;
+	padding: 65px;
 }
 
 #main-menu ul {
@@ -274,14 +274,14 @@ h1 {
 
 /*=== End of Main Menu Styles===*/
 
-/*== Start Newsletter Styles===*/
+/*== Start Promotional Styles===*/
 
 
 #promotional {
 	padding: 20px;
 }
 
-.flex3 {
+.flex3-left-col {
 	background-color: #F5DEB3;
 	font-family: 'Open Sans', sans-serif;
 	text-transform: uppercase;
@@ -294,7 +294,7 @@ h1 {
 	text-align: center;
 }
 
-.flex3 h2{
+.flex3-left-col h2{
 	font-family: 'Bree Serif', serif;
 	color: #332661;
 	margin: 20px 0;
@@ -303,7 +303,7 @@ h1 {
 	text-align: center;
 }
 
-.flex3 span {
+.flex3-left-col span {
 	font-family: 'Open Sans', sans-serif;
 	color: #000;
 	font-weight: 500;
@@ -337,7 +337,7 @@ h1 {
 	background-color: lightgrey;
 }
 
-.flex4 {
+.flex4-right-col {
 	background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ),url('../imgs/promoimg.jpg'); 
 	background-position: center;
 	background-repeat:   no-repeat;
@@ -357,6 +357,8 @@ h1 {
 /*=== Beginning of Gallery Styles ===*/
 
 #gallery h2 {
+	font-family: 'Lato', sans-serif;
+	padding: 30px;
 	text-align: center;
 	color: orange;
 }
@@ -441,16 +443,62 @@ h1 {
 
 /*== Beginning of Footer Styles===*/
 
-#footer {
-	font-family: 'Open Sans', sans-serif;
-	text-align: center;
+.footer {
+	text-align: left;
 	margin-top: 100px;
 	height: 300px;
-	background-color: black;
+	background-color: #DBA0A0;
+}
+
+.columns h3 {
+	font-size: 1.4rem;
+	margin-bottom: 0;
+}
+
+.columns {
+font-family: 'Open Sans', sans-serif;
+font-size: .9rem;
+line-height: 2;
+padding: 10px 120px;
+color: white;
+}
+
+.icons {
+	padding: 15px 0 0 10px;
+	font-size: 1.5rem;
+}
+
+.icons a {
 	color: white;
 }
 
+.copy{
+	font-size: .7rem;
+	margin-top: 30px;
+}
 
+.right h3 {
+	padding: 0 0 20px 0;
+}
+
+.right input {
+	font-style: italic;
+	padding: 9px;
+}
+
+.right input-placeholder {
+	font-style: italic;
+
+}
+
+.right button {
+	font-size: 1rem;
+	border: none;
+	margin-left: 3px;
+	padding: 10px 30px;
+	background-color: #605052;
+	color: white;
+}
 
 
 
