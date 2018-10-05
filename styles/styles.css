@@ -446,8 +446,13 @@ h1 {
 .footer {
 	text-align: left;
 	margin-top: 100px;
-	height: 300px;
+	height: 350px;
 	background-color: #DBA0A0;
+}
+
+.footer-left, .footer-middle, .footer-right {
+	width: 33.33%;
+	float: left;
 }
 
 .columns h3 {
@@ -473,25 +478,26 @@ color: white;
 }
 
 .copy{
+	margin-top: 85px;
 	font-size: .7rem;
-	margin-top: 30px;
+
 }
 
-.right h3 {
+.footer-right h3 {
 	padding: 0 0 20px 0;
 }
 
-.right input {
+.footer-right input {
 	font-style: italic;
 	padding: 9px;
 }
 
-.right input-placeholder {
+.footer-right input-placeholder {
 	font-style: italic;
 
 }
 
-.right button {
+.footer-right button {
 	font-size: 1rem;
 	border: none;
 	margin-left: 3px;
