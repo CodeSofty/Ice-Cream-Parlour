@@ -1,3 +1,4 @@
+
 .container {
 	width: 80%;
 	margin: 0 auto;
@@ -84,26 +85,39 @@ h1 {
 	justify-content: space-between;
 }
 
+.flex-left-col img {
+	width: 500px;
+	height: 500px;
+	opacity: 0;
+	transition: opacity 1s ease-in-out;
+}
+
+.flex-left-col img:hover {
+	opacity: 1;
+}
+
 .flex-left-col {
 	margin: 0 auto;
 	width: 80%;
 	height: 750px;
 	max-width: 100%;
-	background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ),url('../imgs/interior.jpeg'); 
+	/*background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ),url('../imgs/interior.jpeg'); 
 	background-position: center;
 	background-repeat:   no-repeat;
-	background-size: cover;
+	background-size: cover;*/
 	flex-basis: 50%;
 }
-
-
 
 .flex-right-col {
 	flex-basis: 50%;
 	margin-left: 40px;
+	opacity: 0;
+	transition: opacity 2s ease-in-out;
 }
 
-
+.flex-right-col:hover {
+	opacity: 1;
+}
 
 .flex-right-col h2 {
 	text-align: center;
@@ -113,7 +127,6 @@ h1 {
 	margin-top: 50px;
 	font-size: 1.5rem;
 	line-height: 1.8;
-
 }
 
 
@@ -126,6 +139,7 @@ h1 {
 	font-size: 1rem;
 	line-height: 1.8;
 }
+
 
 
 .underline {
