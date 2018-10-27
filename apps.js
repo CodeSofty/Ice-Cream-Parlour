@@ -4,6 +4,30 @@ var close = document.getElementsByClassName('nav-close')[0];
 var mobileNavigation = document.getElementsByClassName('mobile')[0];
 var deskNavigation = document.getElementsByClassName('nav')[0];
 var h1 = document.getElementsByTagName('h1')[0];
+carousel = document.getElementsByClassName('carousel')[0];
+var next = document.getElementById('arrow-right');
+var prev = document.getElementById('arrow-left');
+var slides = document.getElementsByClassName('slides');
+
+
+
+
+var slideIndex = 1;
+
+next.addEventListener('click', function () {
+	for(let i =0; i<slides.length; i++){
+		slides[i].style.display = 'none';
+	}
+ slideIndex++;
+
+ if(slideIndex> slides.length){
+ 	slideIndex = 1;
+ }
+
+ slides[slideIndex - 1].style.display = 'block';
+})
+
+
 
 // Animates the transitions for fading elements
 
@@ -38,3 +62,4 @@ close.addEventListener('click', function() {
 	h1.style.display = 'block';
 	close.style.display = 'none';
 })
+

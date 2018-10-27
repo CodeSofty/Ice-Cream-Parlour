@@ -1,3 +1,5 @@
+
+
 /*==== Beginning of Animation Classes =====*/
 
 .fade-in {
@@ -163,36 +165,77 @@ h1 {
 
 
 
-/*=== Beginning Trending Menu Styles====*/
+/*=== Beginning Menu Slider Styles====*/
+
+#arrow-left {
+	position: absolute;
+	background-color: grey;
+	color: whitesmoke;
+	font-size: 3rem;
+	border-radius: 100%;
+	padding: 37px;
+	top: 50%;
+	left: 2.7%;
+	z-index: 2;
+	opacity: .8;
+}
+
+#arrow-left:hover {
+	opacity: 1;
+}
+
+#arrow-right {
+	position: absolute;
+	background-color: grey;
+	color: whitesmoke;
+	font-size: 3rem;
+	border-radius: 100%;
+	padding: 37px;
+	top: 50%;
+	right: 1%;
+	z-index: 2;
+	opacity: .8;
+
+}
+
+#arrow-right:hover {
+	opacity: 1;
+}
 
 #menu-slider {
-	padding: 20px 0;
 	background-color: #819999;
+	position: relative;
 }
 
 
-.seasonal-title {
+.seasonal-heading {
 	font-family: 'Bree Serif', serif;
 	color: #FBFCF8;
-	font-size: 5rem;
+	font-size: 4rem;
 	text-align: center;
 }
 
 
-.trending-title {
+.secondary-heading {
 	font-family: 'Open Sans', sans-serif;
 	color: white;
 	padding-bottom: 20px;
 	margin-top: 50px;
 	text-align: center;
 	text-transform: uppercase;
-	font-size: 1.5rem;
+	font-size: 1rem;
 	letter-spacing: 5px;
 }
 
+.slides {
+	overflow: hidden;
+	position: relative;
+}
 
-.left, .middle, .right {
-	margin: 0 auto 50px;
+
+.left-col, .middle-col, .right-col {
+	margin: 0 auto;
+	padding-bottom: 50px;
 	width: 60%;
 	height: 100%;
 }
@@ -201,7 +244,6 @@ h1 {
 .box {
 	background-color: #D2E1D2;
 	padding: 40px 0;
-	margin-left: 20px;
 
 }
 
@@ -215,7 +257,7 @@ h1 {
 	font-family: 'Lato', sans-serif;
 	color: white;
 	font-size: 1.3rem;
-	padding: 20px 25px;
+	padding: 70px 25px 30px 25px;
 	border-radius: 25px;
 	text-decoration: none;
 	text-align: center;
@@ -225,10 +267,6 @@ h1 {
 
 .link {
 	text-align: center;
-}
-
-.boxes {
-	padding-bottom: 50px;
 }
 
 
@@ -307,7 +345,7 @@ h1 {
 	text-align: center;
 }
 
-/*=== End of Trending Menu Styles===*/
+/*=== End of Slider Menu Styles===*/
 
 
 /*=== Beginning of Main Menu Styles===*/
@@ -371,13 +409,12 @@ h1 {
 /*== Start Promotional Styles===*/
 
 
-
 #promotional {
 	padding: 5px;
 }
 
 
-.flex-container2 {
+.promo-flex-container {
 	width:  100%;
 	margin: 75px 0;
 	display: flex;
@@ -386,7 +423,7 @@ h1 {
 }
 
 
-.flex3-left-col {
+.promo-left-col {
 	background-color: #F5DEB3;
 	font-family: 'Open Sans', sans-serif;
 	text-transform: uppercase;
@@ -399,7 +436,7 @@ h1 {
 	text-align: center;
 }
 
-.flex3-left-col h2{
+.promo-left-col h2{
 	font-family: 'Bree Serif', serif;
 	color: #332661;
 	margin: 20px 0;
@@ -408,7 +445,7 @@ h1 {
 	text-align: center;
 }
 
-.flex3-left-col span {
+.promo-left-col span {
 	font-family: 'Open Sans', sans-serif;
 	color: #000;
 	font-weight: 500;
@@ -442,7 +479,7 @@ h1 {
 	background-color: lightgrey;
 }
 
-.flex4-right-col {
+.promo-right-col {
 	background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ),url('../imgs/promoimg.jpg'); 
 	background-position: center;
 	background-repeat:   no-repeat;
@@ -457,7 +494,7 @@ h1 {
 	line-height: 1.8;
 }
 
-/*=== End Newsletter Styles ===*/
+/*=== End Promotional Styles ===*/
 
 /*=== Beginning of Gallery Styles ===*/
 
@@ -638,7 +675,7 @@ color: white;
  
  /*==== Desktop Queries ====*/
  
-@media only screen and (min-device-width: 1200px){
+@media only screen and (min-device-width: 1040px){
 
  .nav-icon {
  	display: none;
@@ -703,9 +740,8 @@ color: white;
  }
  
  
- 
- .seasonal-title {
- 	font-size: 2.5rem;
+ .seasonal-heading {
+ 	font-size: 4rem;
  }
  
  
@@ -714,9 +750,14 @@ color: white;
  	font-size: .8rem;
  }
  
+ .carousel {
+	margin: 0 auto;
+	overflow: hidden;
+	width: 1000px;
+	height: 400px;
+}
  
- 
- .left, .middle, .right {
+ .left-col, .middle-col, .right-col {
  	margin: 0 auto 50px;
  	width: 33.33%;
  	height: 100%;
@@ -859,7 +900,7 @@ color: white;
 /*==== Mobile Queries ====*/
 
 
-@media screen and (max-device-width: 700px) {
+@media screen and (max-device-width: 826px) {
 
 header {
 	height: 650px;
@@ -902,8 +943,25 @@ header h1 {
 	margin-left: 0;
 }
 
-.trending-title {
-		font-size: 1.5rem;
+#menu-slider {
+	padding-top: 5px;
+}
+
+.seasonal-heading {
+	font-size: 6rem;
+}
+
+.secondary-heading {
+		font-size: 2rem;
+	}
+
+#arrow-left {
+	display: none;
+
+	}
+
+#arrow-right {
+	display: none;
 	}
 
 .box {
