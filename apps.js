@@ -1,46 +1,47 @@
 const elements  = document.getElementsByClassName('fade-out');
-const open = document.querySelectorAll('.nav-icon');
-const close = document.querySelectorAll('.nav-close');
-const mobileNavigation = document.querySelectorAll('.mobile');
-const deskNavigation = document.querySelectorAll('.nav');
+const open = document.getElementsByClassName('nav-icon')[0];
+const close = document.getElementsByClassName('nav-close')[0];
+const mobileNavigation = document.getElementsByClassName('mobile')[0];
+const deskNavigation = document.getElementsByClassName('nav')[0];
 const h1 = document.getElementsByTagName('h1')[0];
 const next = document.getElementById('arrow-right');
 const prev = document.getElementById('arrow-left');
 const slides = document.querySelectorAll('.slides');
 
 
-// Keeps track of slide count
-  var slideIndex = 1;
+// Keeps track of slide count globally
+  let slideTracker = 1;
 
-// Compares the Slide Count with the amount of slides
 
-function showImage() {
-  if(slideIndex > slides.length) {
-		slideIndex = 1;
+// showImage takes the parameter n and adds it to the slideTracker
+function showImage(n) {
+
+  slideTracker += n;
+
+  if(slideTracker > slides.length) {
+		slideTracker = 1;
  }
-  if (slideIndex < 1) {
-		slideIndex = slides.length;
+  if (slideTracker < 1) {
+		slideTracker = slides.length;
  }
 
   hideSlides();
-//The slide index starts at 1 so -1 makes it 0
-//displaying the first slide twice
-  slides[slideIndex-1].style.display = 'block';
+
+// Displays the next slide
+  slides[slideTracker-1].style.display = 'block';
  }
 
 
- next.addEventListener('click', function () {
-   showImage();
-   slideIndex++;
- 	
+ next.addEventListener('click', () => {
+   showImage(1);
 });
 
 
-prev.addEventListener('click', function () {
-  showImage()
-  slideIndex--;
+prev.addEventListener('click', () => {
+  showImage(-1)
 });
 
+// Hides all slides
 function hideSlides() {
   for(let i=0; i< slides.length; i++){
   slides[i].style.display = 'none';
@@ -80,5 +81,6 @@ close.addEventListener('click', function() {
   deskNavigation.style.display = 'block';
   h1.style.display = 'block';
   close.style.display = 'none';
-})
+});
+
 
