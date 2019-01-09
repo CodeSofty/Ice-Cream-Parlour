@@ -1,12 +1,12 @@
-const elements  = document.getElementsByClassName('fade-out');
+const elements  = document.getElementsByClassName('fade-in');
 const open = document.getElementsByClassName('nav-icon')[0];
 const close = document.getElementsByClassName('nav-close')[0];
 const mobileNavigation = document.getElementsByClassName('mobile')[0];
 const deskNavigation = document.getElementsByClassName('nav')[0];
 const h1 = document.getElementsByTagName('h1')[0];
-const next = document.getElementById('arrow-right');
-const prev = document.getElementById('arrow-left');
-const slides = document.querySelectorAll('.slides');
+const next = document.getElementsByClassName('carousel__arrow--right')[0];
+const prev = document.getElementsByClassName('carousel__arrow--left')[0];
+const slides = document.querySelectorAll('.carousel__slides');
 
 
 // Keeps track of slide count globally

@@ -12,7 +12,7 @@
 
   <body>
     
-    <header>
+    <header class='header'>
 
       <div class = 'nav-icon'>
 
@@ -53,9 +53,9 @@
 
       <div class='flex-container'>
 
-      <div class='flex-left-col fade-out'> <img src='imgs/interior.jpeg' id='cafe'></div>
+      <div class='flex-left-col fade-in'> <img src='imgs/interior.jpeg' id='cafe'></div>
 
-    <div class='flex-right-col fade-out'>
+    <div class='flex-right-col fade-in'>
       <h2> Welcome to Main Street Ice Cream Parlour.</h2>
      <p>Lorem ipsum dolor amet yuccie bitters viral glossier post-ironic. Brunch cronut try-hard franzen, letterpress roof party chicharrones shabby chic tote bag ramps four loko cornhole mlkshk post-ironic. Blue bottle selfies 3 wolf moon shabby chic, normcore shoreditch schlitz leggings tumeric. Kombucha blog organic skateboard, prism ramps before they sold out schlitz. Unicorn dreamcatcher palo santo chillwave YOLO pabst viral pok pok post-ironic microdosing seitan.</p>
 
@@ -76,11 +76,11 @@
 
 <!---Beginning of Seasonal Menu Section --->
 
-<section id= 'menu-slider'>
-  <div class='container'>
-    <h2 class='seasonal-heading'>Seasonal Treats</h2>
-    <h5 class='secondary-heading'> Choose your way to Fall</h5>
-    <i id = 'arrow-left' class="fas fa-arrow-left"></i>
+<section id= 'carousel-section'>
+  <div class='carousel-container'>
+    <h2 class='carousel-heading--main'>Seasonal Treats</h2>
+    <h5 class='carousel-heading--sub'> Choose your way to Fall</h5>
+    <i class= 'carousel__arrow--left fas fa-arrow-left hidden'></i>
 
 
   <div class = 'carousel'>
@@ -88,37 +88,37 @@
 
 <!-- Slide 1 -->
 
-  <div class = 'slides'>
-    <div class= 'left-col'>
-      <div class= 'box'>
-        <div class='box-image1'> 
-          <div class='overlay'> Pumpkin Spiced Latte</div>
+  <div class = 'carousel__slides'>
+    <div class= 'carousel__column--left'>
+      <div class= 'carousel__card'>
+        <div class='card__image1 images'> 
+          <div class='card__overlay'> Pumpkin Spiced Latte</div>
         </div>
-      <span class='title'>Pumpkin Spiced Latte</span>
-      <p class='details'> Two shots of espresso mixed with pumpkin spice and steamed whole milk.</p>
+      <span class='card__title'>Pumpkin Spiced Latte</span>
+      <p class='card__details'> Two shots of espresso mixed with pumpkin spice and steamed whole milk.</p>
       </div>
     </div>
 
 
-    <div class= 'middle-col'>
-      <div class= 'box'>
-        <div class='box-image2'> 
-          <div class='overlay'>Orange and Brown Trail Mix</div>
+    <div class= 'carousel__column--center'>
+     <div class= 'carousel__card'>
+        <div class='card__image2 images'> 
+          <div class='card__overlay'>Orange and Brown Trail Mix</div>
         </div>
-      <span class='title'>Super Pumpkin Trail Mix </span>
-      <p class='details'> Organic pumpkin seeds tossed in a tradition
+      <span class='card__title'>Super Pumpkin Trail Mix </span>
+      <p class='card__details'> Organic pumpkin seeds tossed in a tradition
       mix of nuts and lightly salted. </p>
       </div>
     </div>
 
 
-    <div class= 'right-col'>
-      <div class= 'box'>
-        <div class='box-image3'> 
-          <div class='overlay'>Famous Fall Brownies</div>
+    <div class= 'carousel__column--right'>
+     <div class= 'carousel__card'>
+        <div class='card__image3 images'> 
+          <div class='card__overlay'>Famous Fall Brownies</div>
         </div>
-      <span class='title'>Crunchy Pumpkin Brownie </span>
-      <p class='details'> Our home made brownies mixed with crunchy peanuts.</p>
+      <span class='card__title'>Crunchy Pumpkin Brownie </span>
+      <p class='card__details'> Our home made brownies mixed with crunchy peanuts.</p>
       </div>
     </div>
   </div>
@@ -127,35 +127,35 @@
 
   <!-- Slide 2 -->
 
-  <div class = 'slides'>
-    <div class= 'right-col'>
-      <div class= 'box'>
-        <div class='box-image3'> 
-          <div class='overlay'>Famous Fall Brownies</div>
+  <div class = 'carousel__slides'>
+    <div class= 'carousel__column--left'>
+     <div class= 'carousel__card hidden'>
+        <div class='card__image4 images'> 
+          <div class='card__overlay'>Famous Fall Brownies</div>
         </div>
-      <span class='title'>Crunchy Pumpkin Brownie </span>
-      <p class='details'> Our home made brownies mixed with crunchy peanuts.</p>
+      <span class='card__title'>Crunchy Pumpkin Brownie </span>
+      <p class='card__details'> Our home made brownies mixed with crunchy peanuts.</p>
       </div>
     </div>
 
-    <div class= 'right-col'>
-      <div class= 'box'>
-        <div class='box-image3'> 
-          <div class='overlay'>Famous Fall Brownies</div>
+    <div class= 'carousel__column--center'>
+      <div class= 'carousel__card hidden'>
+        <div class='card__image5 images'> 
+          <div class='card__overlay'>Famous Fall Brownies</div>
         </div>
-      <span class='title'>Crunchy Pumpkin Brownie </span>
-      <p class='details'> Our home made brownies mixed with crunchy peanuts.</p>
+      <span class='card__title'>Crunchy Pumpkin Brownie </span>
+      <p class='card__details'> Our home made brownies mixed with crunchy peanuts.</p>
       </div>
     </div>
 
 
-    <div class= 'right-col'>
-      <div class= 'box'>
-        <div class='box-image3'> 
-          <div class='overlay'>Famous Fall Brownies</div>
+    <div class= 'carousel__column--right'>
+     <div class= 'carousel__card hidden'>
+        <div class='card__image6 images'> 
+          <div class='card__overlay'>Famous Fall Brownies</div>
         </div>
-      <span class='title'>Crunchy Pumpkin Brownie </span>
-      <p class='details'> Our home made brownies mixed with crunchy peanuts.</p>
+      <span class='card__title'>Crunchy Pumpkin Brownie </span>
+      <p class='card__details'> Our home made brownies mixed with crunchy peanuts.</p>
       </div>
     </div>
   </div>
@@ -163,34 +163,34 @@
 
   <!-- Slide 3 -->
 
-  <div class ='slides'>
-    <div class= 'left-col'>
-      <div class= 'box'>
-        <div class='box-image1'> 
-          <div class='overlay'> Pumpkin Spiced Latte</div>
+  <div class ='carousel__slides hidden'>
+    <div class= 'carousel__column--left'>
+     <div class= 'carousel__card'>
+        <div class='card__image1 images'> 
+          <div class='card__overlay'> Pumpkin Spiced Latte</div>
         </div>
-      <span class='title'>Pumpkin Spiced Latte</span>
-      <p class='details'> Two shots of espresso mixed with pumpkin spice and steamed whole milk.</p>
+      <span class='card__title'>Pumpkin Spiced Latte</span>
+      <p class='card__details'> Two shots of espresso mixed with pumpkin spice and steamed whole milk.</p>
       </div>
     </div>
 
-    <div class= 'left-col'>
-      <div class= 'box'>
-        <div class='box-image1'> 
-          <div class='overlay'> Pumpkin Spiced Latte</div>
+    <div class= 'carousel__column--left'>
+      <div class= 'carousel__card'>
+        <div class='card__image1 images'> 
+          <div class='card__overlay'> Pumpkin Spiced Latte</div>
         </div>
-      <span class='title'>Pumpkin Spiced Latte</span>
-      <p class='details'> Two shots of espresso mixed with pumpkin spice and steamed whole milk.</p>
+      <span class='card__title'>Pumpkin Spiced Latte</span>
+      <p class='card__details'> Two shots of espresso mixed with pumpkin spice and steamed whole milk.</p>
       </div>
     </div>
 
-    <div class= 'left-col'>
-      <div class= 'box'>
-        <div class='box-image1'> 
-          <div class='overlay'> Pumpkin Spiced Latte</div>
+    <div class= 'carousel__column--left'>
+      <div class= 'carousel__card'>
+        <div class='card__image1 images'> 
+          <div class='card__overlay'> Pumpkin Spiced Latte</div>
         </div>
-      <span class='title'>Pumpkin Spiced Latte</span>
-      <p class='details'> Two shots of espresso mixed with pumpkin spice and steamed whole milk.</p>
+      <span class='card__title'>Pumpkin Spiced Latte</span>
+      <p class='card__details'> Two shots of espresso mixed with pumpkin spice and steamed whole milk.</p>
       </div>
     </div>
   </div>
@@ -198,10 +198,10 @@
 
 
 
-<div class = 'link'>
-<a href="#" class='box-link'><strong>Explore Our Other Treats</strong></a>
+<div class = 'menu-link'>
+<a href="#" class='menu-link--treats'><strong>Explore Our Other Treats</strong></a>
   </div> 
-<i id = 'arrow-right' class="fas fa-arrow-right"></i>
+<i class= 'carousel__arrow--right fas fa-arrow-right hidden'></i>
 </div>  <!-- container-->
 </section>
 
@@ -212,12 +212,12 @@
 <!-- Beginning of Main Menu Section -->
 <section id = 'main-menu'>
 <div class='container'>
-  <h2>Our Flavors and Toppings</h2>
+  <h2 class='main-menu__heading--primary'>Our Flavors and Toppings</h2>
 <div class='grid'>
 
-<div class='food'>
-<ul>
-  <h1 class='col-title'>Flavors</h1>
+<div class='main-menu__column'>
+<ul class='column__list'>
+  <h1 class='column__heading'>Flavors</h1>
 <li>Sweetened Cream</li>
 <li>Malted Milk Chocolate</li>
 <li>Flan</li>
@@ -227,16 +227,16 @@
 <li>Orange Calamansi Creamsicle (Vegan)</li>
 <li>Corn Almond (Vegan)</li>
 
-<h1 class='col-title'>DRINKS</h1>
+<h1 class='column__heading'>DRINKS</h1>
 <li>Cold Brewed Coffee Floats</li>
 <li>City Bean Cold Brew</li>
 </ul>
 </div>
 
 
-<div class='food'>
-<ul>
-  <h1 class='col-title'>Flavors of The Day</h1>
+<div class='main-menu__column'>
+<ul class='column__list'>
+  <h1 class='column__heading'>Flavors of The Day</h1>
 <li>Sweetened Cream</li>
 <li>Malted Milk Chocolate</li>
 <li>Pumpkin Spiced Latte</li>
@@ -249,9 +249,9 @@
   </div>
 
 
-  <div class='food'>
-<ul>
-  <h1 class='col-title'>Toppings</h1>
+  <div class='main-menu__column'>
+<ul class='column__list'>
+  <h1 class='column__heading'>Toppings</h1>
 <li>Butterscotch Rice Krispies</li>
 <li>Chocolate Covered Honeycomb (Vegan)</li>
 <li>Graham Cracker Streusel</li>
@@ -309,35 +309,35 @@
 <!--The Following Is a Grid Containing Images-->
 <div class='grid-wrapper'>
 
-<div class='item image1'>
+<div class='instagram gallery__image1 image-content hover'>
 
 </div>
 
-<div class='item image2'>
+<div class='gallery__image2  image-content hover'>
 
 </div>
 
-<div class='item image3'>
+<div class='instagram gallery__image3  image-content hover'>
 
 </div>
 
-<div class='item image4'>
+<div class='instagram gallery__image4 image-content hover'>
 
 </div>
 
-<div class='item image5'>
+<div class='instagram gallery__image5  image-content hover'>
 
 </div>
 
-<div class='item image6'>
+<div class='instagram gallery__image6 image-content hover'>
 
 </div>
 
-<div class='item image7'>
+<div class='instagram gallery__image7 image-content hover'>
 
 </div>
 
-<div class='item image8'>
+<div class='instagram gallery__image8 image-content hover'>
 
 </div>
 
@@ -354,40 +354,40 @@
 
 <!-- Beginning of Footer Section -->
 
-<footer class = 'footer'>
+<footer class = 'main-footer'>
 
-<div class='columns'>
+<div class='main-footer__columns'>
 
-<div class = 'footer-left'>
-<h3>Find Us</h3>
-<div class = 'content'>
+<div class = 'main-footer__columns--left'>
+<h3 class='column__heading'>Find Us</h3>
+<div class = 'main-footer__content'>
 <address>514 Main Street<br>
 Kansas City, MO 64106</address>
 816.555.5555<br>
-<div class = 'icons'>
+<div class = 'main-footer__icons'>
 <a href='#'><i class="fab fa-facebook-square"></i></a>
 <a href= '#'><i class="fab fa-twitter-square"></i></a>
 <a href = '#'> <i class="fab fa-instagram"></i></a>
 </div>
-<div class = 'copy'><span>&copy; 2018 Main Street Ice Cream Parlour</span></div>
+<div class = 'main-footer__copy'><span>&copy; 2018 Main Street Ice Cream Parlour</span></div>
 </div>
 </div>
 
-<div class = 'footer-middle'>
-  <h3>Hours</h3>
-  <div class = 'content'>
+<div class= 'main-footer__columns--center'>
+  <h3 class='column__heading'>Hours</h3>
+  <div class= 'main-footer__content'>
 <span>Monday | 7am-5pm<br>
 Tuesday–Saturday | 8am–3pm<br>
 Sunday | 9am-3pm</span>
 </div>
   </div>
 
-  <div class = 'footer-right'>
-    <h3>Join Our Mailing List</h3>
-    <div class = 'content'>
+  <div class= 'main-footer__columns--right'>
+    <h3 class='column__heading'>Join Our Mailing List</h3>
+    <div class= 'main-footer__content'>
 <form>
-  <input type='text' placeholder = 'Email Address'>
-  <button>submit</button>
+  <input class= 'subscription-box' 'type='text' placeholder = 'Email Address'>
+  <button class='btn--black'>submit</button>
 </form>
 </div>
   </div>
