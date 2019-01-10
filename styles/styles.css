@@ -429,7 +429,7 @@ h1 {
 /*== Start Promotional Styles===*/
 
 
-#promotional {
+#promo {
 	padding: .5rem;
 }
 
@@ -443,7 +443,7 @@ h1 {
 }
 
 
-.promo-left-col {
+.promo__column--left {
 	background-color: #F5DEB3;
 	font-family: 'Open Sans', sans-serif;
 	text-transform: uppercase;
@@ -456,7 +456,7 @@ h1 {
 	text-align: center;
 }
 
-.promo-left-col h2{
+.promo__heading{
 	font-family: 'Bree Serif', serif;
 	color: #332661;
 	margin: 2rem 0;
@@ -465,7 +465,7 @@ h1 {
 	text-align: center;
 }
 
-.promo-left-col span {
+.promo__column--left span {
 	font-family: 'Open Sans', sans-serif;
 	color: #000;
 	font-weight: 500;
@@ -475,13 +475,13 @@ h1 {
 	padding: 0 1.8rem;
 }
 
-.btn {
+.btn--purple {
 	margin-top: 1.5rem;
 	padding-bottom: 4.5rem;
 	text-align: center;
 }
 
-.btn a {
+.btn--purple a {
 	font-family: 'Lato', sans-serif;
 	font-size: 1.5rem;
 	font-weight: 400;
@@ -494,12 +494,12 @@ h1 {
 	padding: 1rem 3rem;
 }
 
-.btn :hover {
+.btn--purple :hover {
 	color: black;
 	background-color: lightgrey;
 }
 
-.promo-right-col {
+.promo__column--right {
 	background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ),url('../imgs/promoimg.jpg'); 
 	background-position: center;
 	background-repeat:   no-repeat;
@@ -518,7 +518,7 @@ h1 {
 
 /*=== Beginning of Gallery Styles ===*/
 
-#gallery h2 {
+.gallery__heading {
 	font-family: 'Lato', sans-serif;
 	font-size: 2rem;
 	padding: 3rem;
@@ -650,7 +650,7 @@ color: white;
 
 .subscription-box {
 	font-style: italic;
-	padding: .9rem;
+	padding: 1.5rem .7rem;
 	display: none;
 }
 
