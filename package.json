@@ -1,0 +1,25 @@
+{
+  "name": "icecream",
+  "version": "1.0.0",
+  "description": "Landing page for ice cream parlour",
+  "main": "apps.js",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  },
+  "devDependencies": {
+    "npm-sass": "^2.3.0"
+  },
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss styles/styles.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeSofty/Ice-Cream-Parlour.git"
+  },
+  "author": "Evan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodeSofty/Ice-Cream-Parlour/issues"
+  },
+  "homepage": "https://github.com/CodeSofty/Ice-Cream-Parlour#readme"
+}
