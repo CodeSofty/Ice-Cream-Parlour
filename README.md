@@ -4,18 +4,21 @@ This is a work in progress. I'm implementing features as I learn them, and conti
 
 Implemented-to-date:
 
-BEM methodologies
-HTML
-CSS3
-Javascript
-Sass
-Custom javascript carousel
-Image Gallery
-Menu section
+- BEM methodologies
+- HTML
+- CSS3
+- Javascript
+- Sass
+
+Features:
+
+- Custom javascript carousel
+- Image Gallery
+- Menu section
 
 
 Future updates:
 
-Better responsiveness
-Change carousel images
-Continue converting CSS to SASS
+- Better responsiveness
+- Change carousel images
+- Continue converting CSS to SASS
