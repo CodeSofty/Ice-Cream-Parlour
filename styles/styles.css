@@ -117,12 +117,14 @@
   font-size: 2rem;
   border-radius: 100%;
   padding: 1.7rem;
-  top: 38%;
+  top: 50%;
   left: 3.7%;
   z-index: 2;
-  opacity: .8; }
+  opacity: .8;
+  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.2); }
   .arrow--left:hover {
-    opacity: 1; }
+    opacity: 1;
+    box-shadow: 0 0.6rem 0.5rem rgba(0, 0, 0, 0.4); }
 
 .arrow--right {
   position: absolute;
@@ -131,29 +133,35 @@
   font-size: 2rem;
   border-radius: 100%;
   padding: 1.7rem;
-  top: 38%;
-  right: 1%;
+  top: 50%;
+  right: 4%;
   z-index: 2;
-  opacity: .8; }
+  opacity: .8;
+  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.2); }
   .arrow--right:hover {
-    opacity: 1; }
+    opacity: 1;
+    box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.3); }
 
 .btn--purple {
   margin-top: 1.5rem;
   padding-bottom: 4.5rem;
-  text-align: center; }
-
-.btn--purple:hover {
-  color: black;
-  background-color: lightgrey; }
-
-.btn--purple a {
-  background-color: #655A8F;
-  border: .2rem solid black;
-  border-radius: .5rem;
-  display: inline-block;
-  text-decoration: none;
-  padding: 1rem 3rem; }
+  text-align: center;
+  transition: all .2s; }
+  .btn--purple a {
+    color: #000;
+    background-color: #d4d4d4;
+    border: .2rem solid black;
+    border-radius: .5rem;
+    display: inline-block;
+    text-decoration: none;
+    padding: 1rem 3rem;
+    box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.4); }
+  .btn--purple a:hover {
+    color: black;
+    background-color: #655A8F; }
+  .btn--purple a:active {
+    transform: translatey(-10px);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3); }
 
 .btn--black {
   font-size: 1.4rem;
@@ -165,7 +173,8 @@
   display: inline; }
 
 .carousel__slides {
-  position: relative; }
+  position: relative;
+  margin: 0 3rem 0 0; }
 
 .carousel__column--left, .carousel__column--center, .carousel__column--right {
   margin: 0 auto;
@@ -241,7 +250,7 @@
   display: block;
   font-size: 1.1rem;
   font-weight: 600;
-  padding: 1.5rem;
+  padding: 1rem;
   line-height: 1.5;
   text-align: center; }
 
@@ -305,7 +314,7 @@
     text-align: center;
     display: inline-block; }
     .menu-link a:hover {
-      color: #000; }
+      color: #d4d4d4; }
 
 .underline {
   width: 25%;
@@ -401,7 +410,8 @@
   padding: 1.5rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr; }
+  grid-template-rows: 1fr;
+  line-height: 2; }
 
 .grid-wrapper {
   display: grid;
@@ -428,7 +438,7 @@
     padding: 0 20px;
     transition: color .5s ease-in-out; }
     .nav a:hover {
-      color: maroon; }
+      color: #d4d4d4; }
 
 .nav-icon {
   display: none;
