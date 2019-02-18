@@ -5,7 +5,6 @@
   <head>
     <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Lato:300,400|Open+Sans:300,400" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-    <link rel = "stylesheet" href = "styles/normalize.css">
   	<link rel = "stylesheet" href = "styles/styles.css">
     <title>Main Street Ice Cream Parlor</title>
   </head>
@@ -13,62 +12,79 @@
   <body>
     
     <header class='header'>
-
+ 
+      
       <div class = 'nav-icon'>
-
        <i class="fas fa-bars"></i>
-
       </div>
+
+
 
       <div class = 'nav-icon--closed'>
         <i class="fas fa-times"></i>
       </div>
 
-      <nav class = 'mobile'>
-        <ul>
+      <nav>
+
+ <!-- Mobile Navigation -->
+
+      <div class = 'mobile-nav'>
+        <ul class = 'mobile-nav__list'>
           <li><a href="#">About Us</a></li>
           <li><a href="#">Seasonal Treats</a></li>
           <li><a href="#">Menu</a></li>
           <li><a href="#">Social Media</a></li>
           <li><a href="#">Locations</a></li>
         </ul>
+      </div>
 
-      </nav>
-
-    	<nav class='nav'>
+<!--  Desktop Navigation -->
+    	<div class='desktop-nav'>
         <a href="#">About Us</a>
     		<a href="#">Seasonal Treats</a>
         <a href="#">Menu</a>
         <a href="#"> Social Media</a>
     		<a href="#"> Location</a>
+      </div>
   	</nav>
     	<h1 class="main-heading--primary"> Main Street Ice Cream Parlour</h1>
   </header>
 
 
 
-<section id='our-story'>
-  <div class ='main-container'>
+<section class='our-story-section'>
 
 
-      <div class='flex-container'>
-
-      <div class='flex-container__left-col fade-in'> 
-        <img src='imgs/interior.jpeg' class='flex-left-col__image'></div>
-
-    <div class='flex-container__right-col fade-in'>
-      <h2 class='flex-container__right-col__heading'> Welcome to Main Street Ice Cream Parlour.</h2>
-     <p class='flex-container__right-col__text'>Lorem ipsum dolor amet yuccie bitters viral glossier post-ironic. Brunch cronut try-hard franzen, letterpress roof party chicharrones shabby chic tote bag ramps four loko cornhole mlkshk post-ironic. Blue bottle selfies 3 wolf moon shabby chic, normcore shoreditch schlitz leggings tumeric. Kombucha blog organic skateboard, prism ramps before they sold out schlitz. Unicorn dreamcatcher palo santo chillwave YOLO pabst viral pok pok post-ironic microdosing seitan.</p>
-
-     <p class='flex-container__right-col__text'>Intelligentsia bitters chartreuse wolf readymade taxidermy jean shorts migas disrupt. Ramps bitters cred, man bun fanny pack post-ironic green juice skateboard. Cliche photo booth tumeric raw denim umami succulents meditation cornhole iPhone roof party banh mi cloud bread. Prism gluten-free meggings paleo, snackwave roof party pickled jean shorts hashtag man braid deep v. Raw denim beard coloring book hammock art party activated charcoal. Godard sartorial 90's single-origin coffee prism ugh subway tile chicharrones XOXO. XOXO street art wayfarers, la croix everyday carry lumbersexual vape freegan church-key narwhal activated charcoal trust fund.</p>
+<div class="our-story__container"> 
 
 
+  <!-- Left Column -->
+  <div class="our-story__column--left">
 
-    <div class='underline'></div>
-    
-</div>
-</div>
-</div>
+    <img src='imgs/interior.jpeg' class=
+            'our-story__image'> 
+  </div>
+
+
+  
+  <!-- Right Column -->
+
+  <div class='our-story__column--right'>
+
+    <h2 class='our-story__column-heading'> <span>Welcome to</span> Main Street Ice Cream Parlour</h2>
+
+    <p class='our-story__text'> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, facilis architecto ex quod ut suscipit officiis ipsa excepturi libero hic quo earum reiciendis perferendis, vitae eum sint! Odit fugiat quibusdam cum quia accusantium labore magnam corporis aperiam, veritatis, sequi necessitatibus distinctio eveniet porro, reiciendis nobis modi facilis doloribus blanditiis rem.</p>
+
+    <p class='our-story__text'> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, architecto, aut repellendus tempora culpa, atque modi fugiat quo perferendis quasi cupiditate voluptatem non. Odit officia voluptate necessitatibus dolores asperiores quo tempore ab commodi beatae esse iusto molestiae, quaerat tempora, enim sequi sunt. Repellendus velit, ullam placeat expedita tempora maxime quibusdam.
+
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi aliquam, in, perspiciatis ex nemo veniam vitae placeat deserunt perferendis doloribus.</p>
+
+    <p class='our-story__text'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, veritatis omnis reiciendis aspernatur reprehenderit aperiam eveniet sapiente deleniti provident inventore. Magni beatae non delectus laboriosam, id magnam deserunt consequuntur, repellat.</p>
+
+  <div class='text-underline'></div>
+
+    </div> 
+  </div> 
 </section>
 
 
@@ -140,7 +156,7 @@
         <div class='carousel-card__image5 images'> 
           <div class='carousel-card__overlay'>Scrumptous Pastries</div>
         </div>
-      <span class='carousel-card__title'>Take a Bite </span>
+      <span class='carousel-card__title'>Take a Bite...or Three </span>
       <p class='carousel-card__details'> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, officiis minima repellat vero.</p>
       </div>
     </div>
@@ -149,9 +165,9 @@
     <div class= 'carousel__column--right'>
      <div class= 'carousel__card'>
         <div class='carousel-card__image6 images'> 
-          <div class='carousel-card__overlay'>Tasty Strawberry Smoothie</div>
+          <div class='carousel-card__overlay'>Tart Cranberry Smoothie</div>
         </div>
-      <span class='carousel-card__title'>Enjoy Something Cold </span>
+      <span class='carousel-card__title'>Enjoy Something Different </span>
       <p class='carousel-card__details'> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, eos.</p>
       </div>
     </div>
@@ -163,30 +179,30 @@
   <div class ='carousel__slides'>
     <div class= 'carousel__column--left'>
      <div class= 'carousel__card'>
-        <div class='carousel-card__image1 images'> 
-          <div class='carousel-card__overlay'> Pumpkin Spiced Latte</div>
+        <div class='carousel-card__image7 images'> 
+          <div class='carousel-card__overlay'> Classic Hot Cocoa</div>
         </div>
-      <span class='carousel-card__title'>Pumpkin Spiced Latte</span>
+      <span class='carousel-card__title'>Relax With A Traditional Drink</span>
       <p class='carousel-card__details'> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque nostrum ab excepturi ipsa.</p>
       </div>
     </div>
 
     <div class= 'carousel__column--left'>
       <div class= 'carousel__card'>
-        <div class='carousel-card__image1 images'> 
-          <div class='carousel-card__overlay'> Pumpkin Spiced Latte</div>
+        <div class='carousel-card__image8 images'> 
+          <div class='carousel-card__overlay'>Chocolate Mouse Cake</div>
         </div>
-      <span class='carousel-card__title'>Pumpkin Spiced Latte</span>
+      <span class='carousel-card__title'>So Rich You'll Have To Share</span>
       <p class='carousel-card__details'> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, nemo ipsam quis qui.</p>
       </div>
     </div>
 
     <div class= 'carousel__column--left'>
       <div class= 'carousel__card'>
-        <div class='carousel-card__image1 images'> 
-          <div class='carousel-card__overlay'> Pumpkin Spiced Latte</div>
+        <div class='carousel-card__image9 images'> 
+          <div class='carousel-card__overlay'>Personal Sized Pies</div>
         </div>
-      <span class='carousel-card__title'>Pumpkin Spiced Latte</span>
+      <span class='carousel-card__title'>Dive Into Homemade Goodness</span>
       <p class='carousel-card__details'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At magnam quod nulla beatae, repellat atque.</p>
       </div>
     </div>
@@ -196,7 +212,7 @@
 
 
 <div class = 'menu-link'>
-<a href="#" class='menu-link--treats'><strong>Explore Our Other Treats</strong></a>
+<a href="#" class='menu-link--treats'><strong>New Offerings Each Month!</strong></a>
   </div> 
 <i class= 'arrow--right fas fa-arrow-right'></i>
 </div>  <!-- container-->
@@ -301,7 +317,6 @@
 <!-- Start of Gallery Section-->
 <section class='gallery'>
   <a href="#"><h2 class='gallery__heading'> Image Gallery</h2></a>
-<div class='container'>
 
 <!--The Following Is a Grid Containing Images-->
 <div class='grid-wrapper'>
@@ -340,8 +355,6 @@
 
 <!-- Ending of Images Grid -->
 
-
-</div>
 </div>
 </section>
 
@@ -353,44 +366,50 @@
 
 <footer class ='main-footer'>
 
-<div class='main-footer__columns'>
+  <div class='main-footer__columns'>
 
-<div class = 'main-footer__columns--left'>
-<h3 class='column__heading'>Find Us</h3>
-<div class = 'main-footer__content'>
-<address>514 Main Street<br>
-Kansas City, MO 64106</address>
-816.555.5555<br>
-<div class = 'main-footer__icons'>
-<a href='#'><i class="fab fa-facebook-square"></i></a>
-<a href= '#'><i class="fab fa-twitter-square"></i></a>
-<a href = '#'> <i class="fab fa-instagram"></i></a>
-</div>
-<div class = 'main-footer__copy'><span>&copy; 2018 Main Street Ice Cream Parlour</span></div>
-</div>
-</div>
+    <div class = 'main-footer__columns--left'>
+      <h3 class='main-footer__columns-heading'>Find Us</h3>
+      <div class = 'main-footer__content'>
+        <address>514 Main Street<br>
+        Kansas City, MO 64106</address>
+        816.555.5555<br>
+      <div class = 'main-footer__icons'>
+        <a href='#'><i class="fab fa-facebook-square"></i></a>
+        <a href= '#'><i class="fab fa-twitter-square"></i></a>
+        <a href = '#'> <i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
 
-<div class= 'main-footer__columns--center'>
-  <h3 class='column__heading'>Hours</h3>
-  <div class= 'main-footer__content'>
-<span>Monday | 7am-5pm<br>
-Tuesday–Saturday | 8am–3pm<br>
-Sunday | 9am-3pm</span>
-</div>
+      <div class= 'main-footer__columns--center'>
+        <h3 class='main-footer__columns-heading'>Hours</h3>
+        <div class= 'main-footer__content'>
+          <span>Monday | 7am-5pm<br>
+          Tuesday–Saturday | 8am–3pm<br>
+          Sunday | 9am-3pm
+          </span>
+        </div>
+
+      <div class = 'main-footer__copy'>
+        <span>&copy; 2018 Main Street Ice Cream Parlour</span>
+        </div>
+      </div>
+
+      <div class= 'main-footer__columns--right'>
+        <h3 class='main-footer__columns-heading'>Join Our Mailing List</h3>
+        
+        <div class= 'main-footer__content'>
+          <form>
+            <input class= 'subscription-box' 'type='text' placeholder = 'Email Address'>
+            <button class='btn--black'>submit</button>
+          </form>
+
+      </div>
+    </div>
   </div>
 
-  <div class= 'main-footer__columns--right'>
-    <h3 class='main-footer__columns-heading'>Join Our Mailing List</h3>
-    <div class= 'main-footer__content'>
-<form>
-  <input class= 'subscription-box' 'type='text' placeholder = 'Email Address'>
-  <button class='btn--black'>submit</button>
-</form>
-</div>
-  </div>
-</div>
-
-  </footer>
+</footer>
 
   <!-- End of Footer Section -->
 
